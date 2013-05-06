@@ -1,5 +1,6 @@
 {% set files = [
-  "/etc/grub.d/05_debian_theme"
+  "/etc/default/grub",
+  "/etc/grub.d/05_debian_theme",
 ] %}
 
 update-grub2:

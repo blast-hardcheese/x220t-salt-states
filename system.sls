@@ -1,3 +1,8 @@
+{% set files = [
+  "/etc/apt/sources.list.d/debian.list",
+  "/etc/apt/sources.list.d/salt.list",
+] %}
+
 system-packages:
   pkg.installed:
     - names:
@@ -37,3 +42,9 @@ system-packages:
       - tiger
 
       - libpam-fprintd
+
+{% for path in files %}
+{{ path }}:
+  file.managed:
+    - source: salt://root/{{ path }}
+{% endfor %}
