@@ -1,6 +1,9 @@
 {% set files = [
   "/etc/apt/sources.list.d/debian.list",
   "/etc/apt/sources.list.d/salt.list",
+  "/etc/apt/sources.list.d/dropbox.list",
+  "/etc/apt/sources.list.d/google-talkplugin.list",
+  "/etc/apt/sources.list.d/quodlibet.list",
 ] %}
 
 system-packages:
