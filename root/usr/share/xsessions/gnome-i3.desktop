@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=GNOME with i3
+Comment=Improved tiling window manager
+TryExec=gnome-session
+Exec=/usr/bin/gnome-session-i3
+Type=XSession
