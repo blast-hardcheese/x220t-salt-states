@@ -10,3 +10,5 @@ base:
     - graphical
 
     - games
+
+    - development

@@ -11,21 +11,41 @@ graphical-packages:
       - xorg
       - gdm3
       - gnome-screensaver
+      - ssh-askpass
+
+      - i3
 
       - wicd
       - gnome-terminal
+      - virt-manager
 
       - password-gorilla
 
-      - i3
       - scrot
       - mplayer
       - pianobar
+      - eog
+
+      - glipper
+      - gmrun
+      - xclip
 
       - vuze
       - deluge
 
+      - iceweasel
       - chromium
+      - pidgin
+
+      - ibus-anthy
+      - xfonts-intl-japanese
+      - xfonts-intl-japanese-big
+
+      - claws-mail
+      - claws-mail-extra-plugins
+      - claws-mail-pgpmime
+      - claws-mail-bogofilter
+      - flashplugin-nonfree
 
 {% for path in configs %}
 {{ path }}:
